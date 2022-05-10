@@ -558,11 +558,17 @@ img {
   fill: var(--white-color);
 }
 
-.subscription-form-wrap {
+.subscription-wrap {
   margin-left: 93px;
 }
 
-.subscription-form {
+.input-wrap {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.subscription-form-wrap {
   display: flex;
   justify-content: space-between;
 }
@@ -615,8 +621,8 @@ img {
 
 .subscription-icon {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 13px;
+  right: 28px;
 }
 
 .footer-mail-link {
